@@ -1,0 +1,61 @@
+*{
+      margin:0;
+      padding:0;
+      outline: aqua  solid;
+}
+header{
+      width: 100%;
+      text-align: center;
+      font-size: 1.3em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+      background: rgb(0 0 0);
+      color: whitesmoke;
+}
+section{
+      display: flex;
+}
+nav{
+      
+      display: flex;
+      flex-direction: column;
+      width: 7%;
+      height: 90vh;
+      background: rgb(185 185 185);
+}
+
+nav a{
+      margin-top: 1em;
+      margin-bottom: 1em;
+      margin-left: auto;
+      margin-right: auto;
+}
+nav a:hover{
+      padding: 9px;
+      background: rgba(255, 255, 255, 0.627);
+
+      border-radius: 50%;
+}
+nav a:last-of-type {
+      color: white;
+      margin-top: auto; /* Empuja este enlace hacia abajo */
+      margin-left: auto;
+      margin-right: auto;
+}
+nav a img{
+      width:  70px;
+}
+
+#cont{
+      background: rgba(0, 0, 0, 0.764);
+      width: 100%;
+
+}
+#contenedorBuscar{
+      height: 6vh;
+}
+#cards{
+      background: rgb(255 255 255);
+      height: 84vh;
+      overflow-y: scroll;
+}

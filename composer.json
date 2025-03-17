@@ -1,0 +1,17 @@
+{
+    "name": "github/recuperacion_erp",
+    "autoload": {
+        "psr-4": {
+            "github\\RecuperacionErp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JohnPV894",
+            "email": "arenalessantiago1@gmail.com"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "1.20"
+    }
+}
