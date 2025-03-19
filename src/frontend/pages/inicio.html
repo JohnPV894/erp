@@ -3,8 +3,9 @@
 <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
       <link rel="stylesheet" href="../styles/basicos.css">
-      <link rel="stylesheet" href="">
+      <link rel="stylesheet" href="../styles/stylosInicio.css">
       <title>Document</title>
 </head>
 <body>
@@ -21,10 +22,48 @@
       </nav>
       <div id="cont">
             <div id="contenedorBuscar"><input type="text" name="" id=""></div>
-            <div id="cards">
-                  
+            <div id="cards-lista">
+                  <div id="formEstudiantes">
+
+                        <form action="">
+                              <input type="text" name="" id="">
+                              <input type="text" name="" id="">
+                              <input type="text" name="" id="">
+                              <input type="text" name="" id="">
+                              <input type="email" name="" id="">
+                              <input type="text" name="" id="">
+                        </form>
+                        <span>
+                              <input type="button" value="CANCELAR" id="ocultarForm">
+                              <input type="button" value="ENVIAR" id="enviarFormEstudiantes">
+                        </span>
+                              
+
+                  </div>
+                  <div class="item-card">
+                       <div class="leyenda">
+                              <h1>ESTUDIANTES</h1>
+                              <p>Gestiona tal tal y tal</p>
+                       </div>
+                       <input type="button" value="Agregar" id="crearEstudiante"> 
+                  </div>
+                  <div class="item-card">
+                        <div class="leyenda">
+                              <h1>CURSOS</h1>
+                              <p>Gestiona tal tal y tal</p>
+                        </div>
+                        <input type="button" value="Agregar" id="crearPromocion"> 
+                  </div>
+                  <div class="item-card">
+                        <div class="leyenda">
+                              <h1>EMPRESAS</h1>
+                              <p>Gestiona tal tal y tal</p>
+                        </div>
+                        <input type="button" value="Agregar" id="crearEmpresa"> 
+                  </div>
             </div>
       </div>
       </section>
+      <script src="../scripts/inicioGestion.js"></script>
 </body>
 </html>

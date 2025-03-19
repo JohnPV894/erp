@@ -1,0 +1,27 @@
+#contenedorBuscar{
+      display: none;
+}
+#cards-lista{
+      display: flex;
+      width: 1fr;
+      overflow-y: hidden;
+      background: rgb(255 255 255);
+      height: 84vh;
+      align-items: center;
+      justify-content: center;
+}
+.item-card{
+      margin-right: 1em;
+      margin-left: 1em;
+      height: 50%;
+      width: 20%;
+
+}
+.leyenda{
+      background: gray; 
+}
+
+.item-card input{
+      width: 100%;
+      padding: 10px 0px;
+}
