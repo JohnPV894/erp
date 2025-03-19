@@ -15,24 +15,26 @@ $(document).ready(function () {
             e.preventDefault();
             $("#cards-lista").css("background","rgb(255 255 255)");
             //Mostrar form + trancision
-            $("#formEmpresa").fadeIn();
+            $("#formEmpresas").fadeIn();
             //Ocultar cards iniciales
             $(".item-card").hide();
       });
       
       $("#crearPromocion").click(function (e) { 
             e.preventDefault();
-            $("#cards-lista").css("background","rgb(0 0 0)");
+            $("#cards-lista").css("background","rgb(100 100 100)");
             //Mostrar form + trancision
-            $("#formPromocion").fadeIn();
+            $("#formPromociones").fadeIn();
             //Ocultar cards iniciales
             $(".item-card").hide();
       });
 
-      $("#ocultarForm").click(function (e) { 
+      $(".ocultarForm").click(function (e) { 
             e.preventDefault();
             //ocultar form + trancision
             $(this).closest("#formEstudiantes").hide();
+            $(this).closest("#formPromociones").hide();
+            $(this).closest("#formEmpresas").hide();
             //Mostrar cards iniciales
             $(".item-card").fadeIn();
             /*

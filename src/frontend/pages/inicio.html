@@ -23,18 +23,58 @@
       <div id="cont">
             <div id="contenedorBuscar"><input type="text" name="" id=""></div>
             <div id="cards-lista">
-                  <div id="formEstudiantes">
+                  <div id="formEstudiantes" style="display: none;">
 
                         <form action="">
-                              <input type="text" name="" id="">
-                              <input type="text" name="" id="">
-                              <input type="text" name="" id="">
-                              <input type="text" name="" id="">
-                              <input type="email" name="" id="">
-                              <input type="text" name="" id="">
+                              <input type="text" name="" id="" placeholder="Nombres">
+                              <input type="text" name="" id="" placeholder="Apellidos">
+                              <input type="text" name="" id="" placeholder="DNI">
+                              <input type="text" name="" id="" placeholder="telefono">
+                              <input type="email" name="" id="" placeholder="Correo">
+                              <input type="text" name="" id="" placeholder="¿formacion?">
                         </form>
                         <span>
-                              <input type="button" value="CANCELAR" id="ocultarForm">
+                              <input type="button" value="CANCELAR" class="ocultarForm">
+                              <input type="button" value="ENVIAR" id="enviarFormEstudiantes">
+                        </span>
+                              
+
+                  </div>
+                  <div id="formPromociones" style="display: none;">
+
+                        <form action="">
+                              <input type="text" name="" id="" placeholder="Nombres">
+                              <input type="text" name="" id="" placeholder="¿formacion?">
+                              <select name="" id="">
+                                    <option value="">TCAE</option>
+                                    <option value="">DAM/DAW</option>
+                                    <option value="">GESTION</option>
+                              </select>
+                        </form>
+                        <span>
+                              <input type="button" value="CANCELAR" class="ocultarForm">
+                              <input type="button" value="ENVIAR" id="enviarFormEstudiantes">
+                        </span>
+                              
+
+                  </div>
+                  <div id="formEmpresas" style="display: none;">
+
+                        <form action="">
+                              <input type="text" name="" id="" placeholder="NIF">
+                              <input type="text" name="" id="" placeholder="Nombres Empresa">
+                              <input type="text" name="" id="" placeholder="Numero">
+                              <input type="text" name="" id="" placeholder="Telefono">
+                              <input type="email" name="" id="" placeholder="Correo">
+                              <input type="text" name="" id="" placeholder="¿formacion?">
+                              <select name="" id="">
+                                    <option value="">TCAE</option>
+                                    <option value="">DAM/DAW</option>
+                                    <option value="">GESTION</option>
+                              </select>
+                        </form>
+                        <span>
+                              <input type="button" value="CANCELAR" class="ocultarForm">
                               <input type="button" value="ENVIAR" id="enviarFormEstudiantes">
                         </span>
                               
